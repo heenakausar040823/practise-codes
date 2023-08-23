@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #CBE7E3;
+    overflow: hidden;
+}
+.container{
+    position: relative;
+    width: 70%;
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.container header{
+    font-size: 2rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+.container .form{
+    margin-top: 0.5px;
+}
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box label{
+    color: #333;
+}
+.form :where(.input-box input, select){
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1 rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 0 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.form .column{
+    display: flex;
+    column-gap: 15px;
+}
+.form button{
+    height: 55px;
+    width: 50%;
+    background-color: #05999E;
+    color: #ffff;
+    font-size: 1rem;
+    border: none;
+    margin-top: 30px;
+    font-weight: 400px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 0 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

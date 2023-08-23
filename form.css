@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgb(130,106,251);
+}
+.container{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #ffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.container header{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+.container .form{
+    margin-top: 30px;
+}
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box label{
+    color: #333;
+}
+.form :where(.input-box input, select){
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1 rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
+}
+.form .column{
+    display: flex;
+    column-gap: 15px;
+}
+.form .gender-box{
+    margin-top: 20px;
+}
+.gender-box h3{
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.form :where(.gender-opt, .gender) {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    font-size: 1rem;
+    color: #333;
+    flex-wrap: wrap;
+}
+.form .gender{
+    column-gap: 5px;
+}
+.form :where(.gender input, .gender label){
+    cursor: pointer;
+}
+.select-box select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+}
+.form button{
+    height: 55px;
+    width: 50%;
+    background-color: rgb(130,106,251);
+    color: #ffff;
+    font-size: 1rem;
+    border: none;
+    margin-top: 30px;
+    font-weight: 400px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

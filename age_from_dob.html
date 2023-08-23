@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    Select date of birth <input type="date" id="dob">
+    <button id="get_age">click to see age</button>
+    <label for="" id="see_age">Age: </label>
+
+    <script>
+        let btn = document.getElementById('get_age');
+        btn.addEventListener('click',function(){
+            let get_dob = document.getElementById('dob').value;
+            let dob_yr = new Date(get_dob).getFullYear();
+            let curr_yr = new Date().getFullYear();
+            let age = curr_yr - dob_yr;
+            document.getElementById("see_age").innerHTML=age;
+        })
+    </script>
+
+
+
+</body>
+</html>
